@@ -69,7 +69,6 @@ function appUserMessageHandler(req, res) {
    				res.status(500).send(err.message);
    			})
     }
-
     res.end();
 }
 
